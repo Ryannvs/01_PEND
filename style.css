@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: purple;
+}
+
+body{
+    height: 100dvh;
+    width: 100dvw;
+    display: grid;
+    place-content: center;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 200px;
+}
+
+.container input{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container button{
+    padding-block: 8px;
+}
+
+.cor {
+    background-color: var(--bg-color);
+    transition: 2s;
+}
